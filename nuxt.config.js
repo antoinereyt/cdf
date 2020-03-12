@@ -49,5 +49,10 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  pwa: {
+    manifest: {
+      name: "My CDF"
+    } 
   }
 }
