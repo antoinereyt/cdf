@@ -19,7 +19,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        href: 'images/iphone5_splash.png',
+        href: 'icon.png',
         media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)',
         rel: 'apple-touch-startup-image'
       }
