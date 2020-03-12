@@ -52,7 +52,10 @@ export default {
   },
   pwa: {
     manifest: {
-      name: "My CDF"
+      name: "My CDF",
+      background_color: "#db0948",
+      theme_color: "#db0948",
+      display: "standalone"
     } 
   }
 }
