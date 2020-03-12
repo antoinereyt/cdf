@@ -12,9 +12,18 @@ export default {
         hid: 'description',
         name: 'description',
         content: process.env.npm_package_description || ''
-      }
+      },
+      { name: 'apple-mobile-web-app-capable', content: 'yes'},
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black'}
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        href: 'images/iphone5_splash.png',
+        media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)',
+        rel: 'apple-touch-startup-image'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
